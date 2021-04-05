@@ -3,6 +3,8 @@ Bonjours voici un menu pour controler la météo de vos server ceci et mon tout 
 
 Dans ce script tout le monde ne peut pas changer la météo cert ils peuvent ouvrir le menu mais ne peuvent pas executer les commandes
 
+Commande : /meteo
+
 POUR VOUS METTRE ACCES :
 
 -rendez vous dans le server.lua
