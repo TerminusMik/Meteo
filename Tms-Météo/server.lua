@@ -168,7 +168,7 @@ RegisterCommand('blackout', function(source)
             if blackout then
                 TriggerClientEvent('vSync:notify', source, 'Blackout is now ~b~enabled~s~.')
             else
-                TriggerClientEvent('vSync:notify', source, 'Blackout is now ~r~disabled~s~.')
+               -- TriggerClientEvent('vSync:notify', source, 'Blackout is now ~r~disabled~s~.')
             end
             TriggerEvent('vSync:requestSync')
         end
