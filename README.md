@@ -14,6 +14,13 @@ tous les personnes ayant présent dans cette liste auront accès au commande
 Si il y a des faute de fracais désoler d'avance 😅
 
 
+
+
+!! ATTENTION !! 
+
+Le coter server/client n'est pas fait par moi mais juste le menu
+
+
 Voila j'espère que mon tout premier  menu va vous plaire
 
 
