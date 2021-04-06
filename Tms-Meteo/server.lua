@@ -306,7 +306,7 @@ end)
 
 Citizen.CreateThread(function()
     while true do
-        Citizen.Wait(300000)
+        Citizen.Wait(5000)
         TriggerClientEvent('vSync:updateWeather', -1, CurrentWeather, blackout)
     end
 end)
