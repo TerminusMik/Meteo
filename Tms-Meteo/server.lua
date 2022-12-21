@@ -51,13 +51,9 @@ end)
 
 function isAllowedToChange(player)
     local allowed = false
-    for i,id in ipairs(admins) do
-        for x,pid in ipairs(GetPlayerIdentifiers(player)) do
-            if debugprint then print('admin id: ' .. id .. '\nplayer id:' .. pid) end
-            if string.lower(pid) == string.lower(id) then
-                allowed = true
-            end
-        end
+    local xPlayer = ESX.GetPlayerFromId(player)
+    if xPlayer.getGroup() ~= "user' then
+	allowed = true
     end
     return allowed
 end
